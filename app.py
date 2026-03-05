@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-# Load trained pipeline
+
 model = pickle.load(open("mental_health_model.pkl", "rb"))
 
 st.title("Mental Health Risk Predictor")
@@ -67,8 +67,11 @@ if st.button("Predict Risk"):
     })
 
     prediction = model.predict(input_data)
+    probability = model.predict_proba(input_data)
 
     if prediction[0] == 1:
-        st.error("High Mental Health Risk Detected")
+        st.error("High Mental Health Risk")
     else:
-        st.success("Low Risk")
+        st.success("Low Mental Health Risk")
+
+    st.write("High Risk Probability:", round(probability[0][1]*100,2), "%")
