@@ -142,9 +142,23 @@ user-friendly applications for practical use.
 
 ## 📂 Project Structure
 
-mental-health-prediction/ │ ├── app/ │ └── app.py │ ├── data/ │ └──
-dataset.csv │ ├── models/ │ └── mental_health_model.pkl │ ├── notebooks/
-│ └── main.ipynb │ ├── requirements.txt └── README.md
+mental-health-prediction
+│
+├── app
+│   └── app.py
+│
+├── data
+│   └── dataset.csv
+│
+├── models
+│   └── mental_health_model.pkl
+│
+├── notebooks
+│   └── main.ipynb
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
 
 ------------------------------------------------------------------------
 
