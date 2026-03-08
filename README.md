@@ -152,7 +152,7 @@ dataset.csv │ ├── models/ │ └── mental_health_model.pkl │ ├�
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/yourusername/mental-health-prediction.git
+git clone : https://github.com/debjit11/Mental-Health-Prediction.git
 
 ### 2️⃣ Install dependencies
 
