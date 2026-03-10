@@ -121,9 +121,22 @@ The trained model then predicts:
 
 -   **Low Risk**
 -   **High Risk**
+There are multiple ways the app might be executed depending on how `app.py` is implemented. Try these in order:
 
-This demonstrates how machine learning models can be integrated into
-user-friendly applications for practical use.
+```bash
+
+
+streamlit run app.py
+
+```
+<div align="center">
+  <img src="https://github.com/debjit11/Mental-Health-Prediction/blob/main/img1.png" alt="Radar System UI" width="45%" />
+  <img src="https://github.com/debjit11/Mental-Health-Prediction/blob/main/img2.png" alt="Missile Defense UI" width="45%" />
+</div>  
+
+---
+
+Open the printed URL in your browser ([http://localhost:8501](http://localhost:8501) for Streamlit).
 
 ------------------------------------------------------------------------
 
