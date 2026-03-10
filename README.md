@@ -121,6 +121,7 @@ The trained model then predicts:
 
 -   **Low Risk**
 -   **High Risk**
+----
 There are multiple ways the app might be executed depending on how `app.py` is implemented. Try these in order:
 
 ```bash
