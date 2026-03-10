@@ -131,9 +131,14 @@ streamlit run app.py
 
 ```
 <div align="center">
-  <img src="https://github.com/debjit11/Mental-Health-Prediction/blob/main/img1.png" alt="Radar System UI" width="45%" />
-  <img src="https://github.com/debjit11/Mental-Health-Prediction/blob/main/img2.png" alt="Missile Defense UI" width="45%" />
-</div>  
+
+<img src="https://github.com/debjit11/Mental-Health-Prediction/blob/main/img1.png"
+width="45%" style="border:3px solid #0f172a; border-radius:10px; margin:10px;" />
+
+<img src="https://github.com/debjit11/Mental-Health-Prediction/blob/main/img2.png"
+width="45%" style="border:3px solid #0f172a; border-radius:10px; margin:10px;" />
+
+</div>
 
 ---
 
