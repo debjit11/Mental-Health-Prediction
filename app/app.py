@@ -3,7 +3,6 @@ import pandas as pd
 import pickle
 
 
-
 with open("notebooks/models/mental_health_model.pkl","rb") as f:
     model = pickle.load(f)
     
