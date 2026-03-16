@@ -75,5 +75,6 @@ if st.button("Predict Risk"):
         st.error("High Mental Health Risk")
     else:
         st.success("Low Mental Health Risk")
+        
 
     st.write("High Risk Probability:", round(probability[0][1]*100,2), "%")
