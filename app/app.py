@@ -46,6 +46,7 @@ productivity = st.number_input("Productivity Score")
 dependence = st.number_input("Digital Dependence Score")
 
 
+
 if st.button("Predict Risk"):
 
     input_data = pd.DataFrame({
