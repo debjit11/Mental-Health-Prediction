@@ -7,3 +7,4 @@ xgboost
 ipykernel
 scikit-learn
 streamlit
+optuna
